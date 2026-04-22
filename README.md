@@ -1,16 +1,17 @@
-# Go Playground
+# go-playground
 
 A playground for practicing Go with TDD (Test-Driven Development).
 
-## What is this?
+## What is this
 
 This repository contains small exercises and examples built while learning Go using the *Go with Tests* approach.
 
-## How to run
+## How to use
 
-```bash
-go test ./...
-```
+1. Write a test
+2. Run it (fail)
+3. Write minimal code to pass
+4. Refactor
 
 ## Goal
 
