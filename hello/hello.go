@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 const (
 	spanish    = "Spanish"
@@ -16,7 +14,7 @@ const (
 )
 
 // public functions start with a capital letter
-func Hello(name string, language string) string {
+func Hello(name, language string) string {
 	if name == "" {
 		name = "World"
 	}
